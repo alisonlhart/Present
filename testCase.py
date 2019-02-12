@@ -1,6 +1,6 @@
-import requests
+import requests                                                                                                                                                     
 
-#r = requests.post('http://34.73.48.217:80', data = {'data' : 'testdata123', 'fname' : 'Jeremy', 'lname' : 'Eudy'})
-#print(r)
-r = requests.get('http://34.73.48.217:80')
+
+#r = requests.post('http://localhost:5000', data = {'data' : 'testdata123', 'fname' : 'Jeremy', 'lname' : 'Eudy'})
+r = requests.get('http://localhost:5000')
 print(r.text)
